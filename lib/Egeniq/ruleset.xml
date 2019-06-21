@@ -324,9 +324,6 @@
         <properties>
             <property name="allAnnotationsAreUseful" value="true"/>
             <property name="enableEachParameterAndReturnInspection" value="true"/>
-            <property name="traversableTypeHints" type="array">
-                <element value="Doctrine\Common\Collections\Collection"/>
-            </property>
         </properties>
     </rule>
     <!-- Forbid useless @var for constants -->
