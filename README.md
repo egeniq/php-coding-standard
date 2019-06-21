@@ -42,7 +42,12 @@ To enable the Egeniq coding standard for your project, create a phpcs.xml.dist f
     <file>tests</file>
 
     <!-- Include full Egeniq coding standard -->
-    <rule ref="Egeniq"/>
+    <rule ref="Egeniq">
+        <!-- sniffs to exclude -->
+        <!-- by default strict types are required, but if you wish to disable this, exclude the following sniff:
+        <exclude name="SlevomatCodingStandard.TypeHints.DeclareStrictTypes"/>
+        -->
+    </rule>
 </ruleset>
 ```
 
