@@ -40,7 +40,7 @@
     <!-- Force whitespace after a type cast -->
     <rule ref="Generic.Formatting.SpaceAfterCast">
         <properties>
-            <property name="spacing" value="1"/>
+            <property name="spacing" value="0"/>
         </properties>
     </rule>
     <!-- Force whitespace after `!` -->
