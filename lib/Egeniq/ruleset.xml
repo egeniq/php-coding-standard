@@ -249,7 +249,7 @@
             <property name="allowFallbackGlobalFunctions" value="true"/>
             <property name="allowFullyQualifiedGlobalClasses" value="false"/>
             <property name="allowFullyQualifiedGlobalConstants" value="false"/>
-            <property name="allowFullyQualifiedGlobalFunctions" value="false"/>
+            <property name="allowFullyQualifiedGlobalFunctions" value="true"/>
             <property name="allowFullyQualifiedNameForCollidingClasses" value="true"/>
             <property name="allowFullyQualifiedNameForCollidingConstants" value="true"/>
             <property name="allowFullyQualifiedNameForCollidingFunctions" value="true"/>
