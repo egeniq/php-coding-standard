@@ -246,7 +246,7 @@
     <rule ref="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly">
         <properties>
             <property name="allowFallbackGlobalConstants" value="false"/>
-            <property name="allowFallbackGlobalFunctions" value="false"/>
+            <property name="allowFallbackGlobalFunctions" value="true"/>
             <property name="allowFullyQualifiedGlobalClasses" value="false"/>
             <property name="allowFullyQualifiedGlobalConstants" value="false"/>
             <property name="allowFullyQualifiedGlobalFunctions" value="false"/>
