@@ -7,7 +7,7 @@ You can install the Egeniq coding standard as a composer dependency to your part
 command to add it to your project:
 
 ```
-php composer require --dev doctrine/coding-standard
+php composer require --dev egeniq/php-coding-standard
 ```
 
 Then you can use it like:
