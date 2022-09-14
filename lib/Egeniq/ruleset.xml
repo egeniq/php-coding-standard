@@ -120,8 +120,6 @@
             <property name="linesCountBetweenUses" value="0"/>
         </properties>
     </rule>
-    <!-- Forbid dead code -->
-    <rule ref="SlevomatCodingStandard.Classes.UnusedPrivateElements"/>
     <!-- Forbid prefix and suffix "Abstract" for abstract classes -->
     <rule ref="SlevomatCodingStandard.Classes.SuperfluousAbstractClassNaming"/>
     <!-- Forbid prefix and suffix "Exception" for exception classes -->
@@ -198,8 +196,8 @@
    <rule ref="SlevomatCodingStandard.ControlStructures.BlockControlStructureSpacing"/>
     <rule ref="SlevomatCodingStandard.ControlStructures.JumpStatementsSpacing">
         <properties>
-            <property name="tokensToCheck" type="array">
-                <element value="T_RETURN"/>
+            <property name="jumpStatements" type="array">
+                <element value="return"/>
             </property>
         </properties>
     </rule>
@@ -286,18 +284,9 @@
     <!-- Require presence of declare(strict_types=1) -->
     <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
         <properties>
-            <property
-                    name="newlinesCountBetweenOpenTagAndDeclare"
-                    value="2"
-            />
-            <property
-                    name="spacesCountAroundEqualsSign"
-                    value="0"
-            />
-            <property
-                    name="newlinesCountAfterDeclare"
-                    value="2"
-            />
+            <property name="linesCountBeforeDeclare" value="2"/>
+            <property name="spacesCountAroundEqualsSign" value="0"/>
+            <property name="linesCountAfterDeclare" value="2"/>
         </properties>
     </rule>
     <!-- Forbid useless parentheses -->
